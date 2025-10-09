@@ -1,1 +1,0 @@
-# szahid.com
