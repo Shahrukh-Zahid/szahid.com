@@ -175,7 +175,7 @@ h6 {
   justify-content: center;
   background: color-mix(in srgb, var(--default-color), transparent 90%);
   color: var(--default-color);
-  margin: 0 2px;
+  margin: 0 6px;
   border-radius: 50%;
   text-align: center;
   width: 40px;
@@ -189,8 +189,10 @@ h6 {
 }
 
 @media (max-width: 767.98px) {
-  .social-links {
-    justify-content: center;
+  .hero .social-links,
+  .header .social-links {
+    display: flex !important;
+    justify-content: center !important;
     margin-top: 1rem;
   }
 }
@@ -1128,7 +1130,7 @@ section,
 
 .section-block {
   margin-bottom: 6rem; /* Adjust as needed */
-  line-height: 2;
+  line-height: 1.5;
   text-align: justify;
 }
 
@@ -1138,7 +1140,7 @@ section,
   padding-left: 0;
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem 1rem; /* vertical and horizontal spacing */
+  gap: 1rem 0.7rem; /* vertical and horizontal spacing */
 }
 
 .skills-section li {
